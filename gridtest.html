@@ -1,0 +1,70 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing:border-box
+        }
+
+        .wrapper {
+            display: flex;
+            height: 100%;
+            width: 100%;
+            align-content: center;
+            justify-content: center;
+            background-color: salmon;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(4, 200px);
+            grid-template-rows: repeat(2, 200px);
+            font-family:sans-serif;
+            font-size: 8rem;
+            margin: 50px;
+            align-content: center;
+            /* justify-content: center; */
+            /* align-content: stretch; */
+            /* place-content: stretch; */
+            /* justify-items: center; */
+            /* background-color: green; */
+            gap: 10px;
+            
+
+        }
+
+        .container div {
+            background-color: gold;
+            /* border: black solid 1px; */
+            border-radius: 20px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            box-shadow: 10px 10px orangered;
+            /* margin-right: -20px; */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="container">
+            <div>E</div>
+            <div>R</div>
+            <div>I</div>
+            <div>C</div>
+            <div>R</div>
+            <div>U</div>
+            <div>J</div>
+            <div>I</div>
+        </div>
+    </div>
+</body>
+
+</html>
